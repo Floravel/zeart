@@ -1,0 +1,10 @@
+name: Artworks
+modelClass: FlorianHess\Vuemanageartwork\Models\Artwork
+form: $/florianhess/vuemanageartwork/models/artwork/fields.yaml
+defaultRedirect: florianhess/vuemanageartwork/artworks
+create:
+    redirect: 'florianhess/vuemanageartwork/artworks/update/:id'
+    redirectClose: florianhess/vuemanageartwork/artworks
+update:
+    redirect: florianhess/vuemanageartwork/artworks
+    redirectClose: florianhess/vuemanageartwork/artworks

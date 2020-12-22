@@ -1,0 +1,11 @@
+plugin:
+    name: 'florianhess.vuemanageartwork::lang.plugin.name'
+    description: 'florianhess.vuemanageartwork::lang.plugin.description'
+    author: 'Florian Heß'
+    icon: oc-icon-paint-brush
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Menu Item'
+        url: florianhess/vuemanageartwork/artworks
+        icon: icon-paint-brush

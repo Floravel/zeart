@@ -1,18 +1,19 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p>Whats UPPPPP!?</p>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// eslint-disable-next-line no-unused-vars
+import axios from 'axios'
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
+  mounted () {
+    axios.get('http://zeart.test/artworks').then(response => {
+      console.log(response.data)
+    })
   }
 }
 </script>

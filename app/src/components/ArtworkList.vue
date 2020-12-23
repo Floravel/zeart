@@ -11,11 +11,13 @@
 
 <script>
 export default {
-  props: {
-    artworks: {
-      type: Array,
-      default: () => []
+  computed: {
+    artworks () {
+      return this.$store.getters.allArtworks
     }
+  },
+  mounted () {
+    this.$store.dispatch('getArtworks')
   }
 }
 </script>

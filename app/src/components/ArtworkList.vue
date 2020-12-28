@@ -2,7 +2,7 @@
   <div>
     <h2 class="text-3xl">Artwork List</h2>
     <ol v-for="(artwork, index) in artworks" :key="index">
-      <li>
+      <li class="pinker">
         {{artwork.title}}
       </li>
     </ol>

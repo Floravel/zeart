@@ -13,8 +13,8 @@
       </div>
       <div class="ml-auto">
         <div class="text-lg lg:flex-grow">
-          <router-link to="/" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-pink-200 no-underline">Home</router-link>
-          <router-link to="/about" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-zauber no-underline">About</router-link>
+          <router-link to="/" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4 text-3xl text-zauber hover:text-yellow-200 no-underline">Home</router-link>
+          <router-link to="/about" class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-yellow-200 mr-4 text-zauber-light no-underline text-3xl">About</router-link>
         </div>
       </div>
     </div>

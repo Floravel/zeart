@@ -1,0 +1,29 @@
+<?php namespace FlorianHess\Manageartwork\Models;
+
+use Model;
+
+/**
+ * Model
+ */
+class Location extends Model
+{
+    use \October\Rain\Database\Traits\Validation;
+    
+    /*
+     * Disable timestamps by default.
+     * Remove this line if timestamps are defined in the database table.
+     */
+    public $timestamps = false;
+
+
+    /**
+     * @var string The database table used by the model.
+     */
+    public $table = 'florianhess_manageartwork_locations';
+
+    /**
+     * @var array Validation rules
+     */
+    public $rules = [
+    ];
+}

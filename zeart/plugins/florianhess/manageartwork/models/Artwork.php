@@ -1,4 +1,4 @@
-<?php namespace FlorianHess\Vuemanageartwork\Models;
+<?php namespace FlorianHess\Manageartwork\Models;
 
 use Model;
 
@@ -13,7 +13,7 @@ class Artwork extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'florianhess_vuemanageartwork_';
+    public $table = 'florianhess_manageartwork_artworks';
 
     /**
      * @var array Validation rules

@@ -1,0 +1,16 @@
+plugin:
+    name: 'florianhess.manageartwork::lang.plugin.name'
+    description: 'florianhess.manageartwork::lang.plugin.description'
+    author: 'Florian Heß'
+    icon: oc-icon-paint-brush
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Artworks
+        url: florianhess/manageartwork/artworks
+        icon: icon-paint-brush
+        sideMenu:
+            side-menu-item:
+                label: Locations
+                url: florianhess/manageartwork/locations
+                icon: icon-home

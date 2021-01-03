@@ -1,0 +1,10 @@
+name: Locations
+form: $/florianhess/manageartwork/models/location/fields.yaml
+modelClass: FlorianHess\Manageartwork\Models\Location
+defaultRedirect: florianhess/manageartwork/locations
+create:
+    redirect: 'florianhess/manageartwork/locations/update/:id'
+    redirectClose: florianhess/manageartwork/locations
+update:
+    redirect: florianhess/manageartwork/locations
+    redirectClose: florianhess/manageartwork/locations

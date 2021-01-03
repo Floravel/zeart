@@ -11,6 +11,10 @@ import Navbar from '@/components/NavBar'
 export default {
   components: {
     Navbar
+  },
+
+  mounted () {
+    this.$store.dispatch('getLocations')
   }
 }
 </script>

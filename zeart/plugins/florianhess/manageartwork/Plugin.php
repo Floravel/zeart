@@ -1,4 +1,4 @@
-<?php namespace FlorianHess\Vuemanageartwork;
+<?php namespace FlorianHess\Manageartwork;
 
 use System\Classes\PluginBase;
 

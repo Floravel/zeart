@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table florianhess_manageartwork_artworks'
+    - builder_table_create_florianhess_manageartwork_artworks.php
+1.0.3:
+    - 'Created table florianhess_manageartwork_locations'
+    - builder_table_create_florianhess_manageartwork_locations.php

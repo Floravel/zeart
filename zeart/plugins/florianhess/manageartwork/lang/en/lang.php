@@ -1,6 +1,6 @@
 <?php return [
     'plugin' => [
-        'name' => 'VueManageArtwork',
+        'name' => 'manageartwork',
         'description' => ''
     ]
 ];

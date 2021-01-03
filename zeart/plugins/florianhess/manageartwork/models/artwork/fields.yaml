@@ -12,6 +12,6 @@ fields:
         type: text
     description:
         label: Description
-        span: full
         size: large
+        span: full
         type: richeditor

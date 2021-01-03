@@ -1,9 +1,9 @@
-<?php namespace FlorianHess\Vuemanageartwork\Controllers;
+<?php namespace FlorianHess\Manageartwork\Controllers;
 
 use Backend\Classes\Controller;
 use BackendMenu;
 
-class Artworks extends Controller
+class Locations extends Controller
 {
     public $implement = [        'Backend\Behaviors\ListController',        'Backend\Behaviors\FormController'    ];
     
@@ -13,6 +13,6 @@ class Artworks extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('FlorianHess.Vuemanageartwork', 'main-menu-item');
+        BackendMenu::setContext('FlorianHess.Manageartwork', 'main-menu-item', 'side-menu-item');
     }
 }

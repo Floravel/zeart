@@ -1,0 +1,10 @@
+name: Artworks
+form: $/florianhess/manageartwork/models/artwork/fields.yaml
+modelClass: FlorianHess\Manageartwork\Models\Artwork
+defaultRedirect: florianhess/manageartwork/artworks
+create:
+    redirect: 'florianhess/manageartwork/artworks/update/:id'
+    redirectClose: florianhess/manageartwork/artworks
+update:
+    redirect: florianhess/manageartwork/artworks
+    redirectClose: florianhess/manageartwork/artworks
